@@ -21,18 +21,19 @@ var config = {
      * 如果不要图片的话, 直接在每行开头写两个斜杠注释即可, 例如下面的 "今天是你的生日" 的图片就不会展示了:)
      * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
      */
-    imgs: {/"birthday":/imgs/birthday.jpg",
+    imgs: { 
+        "birthday":"/imgs/birthday.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
         turn_on: "嘘~开始啦",
         play: "music",
-        bannar_coming: "加点颜色",
-        balloons_flying: "好像少点东西",
-        cake_fadein: "蛋糕？",
-        light_candle: "蜡烛？",
+        bannar_coming: "装饰起来",
+        balloons_flying: "来，松手，放飞气球",
+        cake_fadein: "上蛋糕",
+        light_candle: "点蜡烛，还有许个愿啦",
         wish_message: "生日快乐",
-        story: "A MESSAGE FOR YOU",
+        story: "给你的留言",
     }
 };
